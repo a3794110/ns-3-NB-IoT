@@ -50,8 +50,8 @@ The detail of our implementation is offered in follwing two articles:
 We offer two **example scripts** to explore the perfomance of NB-IoT RA and scheduler with our project, repectively.
 
 The detail of two example scripts are offered in following Gitub wiki urls:
-* *NB-IoT Random Access*:
-* *NB-IoT Schedulers*:
+* *NB-IoT Random Access*: https://github.com/a3794110/ns-3-NB-IoT/wiki/NB-IoT-RA-Example-Script
+* *NB-IoT Schedulers*: https://github.com/a3794110/ns-3-NB-IoT/wiki/NB-IoT-Schedulers-Example-Script
 
 
 
