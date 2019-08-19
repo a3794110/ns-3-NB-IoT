@@ -16,7 +16,7 @@ It is worth mentioning that this project only support format 1 RU. (15kHz, 12 SC
  
 ## 3. Contributor
 
-Developed by Kuan-Yu Lin, Tzu-Hsian Chou and Ping-Han Shieh. (Graduate students in Wireless and Mobile Networking Labortory, National Tsing Hua University)
+Developed by **Kuan-Yu Lin**, **Tzu-Hsian Chou** and **Ping-Han Shieh**. (Graduate students in Wireless and Mobile Networking Labortory, National Tsing Hua University)
 
 ## 4. Prerequisite
 The preequisite of our project is:
