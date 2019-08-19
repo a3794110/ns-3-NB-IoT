@@ -46,7 +46,7 @@ The detail of our implementation is offered in follwing two articles:
 
 * *[Simulating NB-IoT Random Access: Using ns-3 as an Example](https://drive.google.com/file/d/1RO6PNewPiJe7ZAkEgtAKxc5VUhM--pPT/view?usp=sharing)*
 
-* *[Simulating NB-IoT Scheduler: Using ns-3 as an Example](https://drive.google.com/file/d/1AOPB7SBYNIGs9xm2eaoXVam0Y6oW07nw/view?usp=sharing).*
+* *[Simulating NB-IoT Scheduler: Using ns-3 as an Example](https://drive.google.com/file/d/1qAG6mTjKeFjokdqFP5QDan21bhWGXEJY/view?usp=sharing).*
 
 ## 7. Getting Started
 We offer two **example scripts** to explore the perfomance of NB-IoT RA and scheduler with our project, repectively.
