@@ -9,7 +9,7 @@ Therefore, in this project, we implement following part based on **ns-3.26 LTE m
 * NB-IoT **Random Access(RA)** (SIB2-NB and CE level mechanism)
 * NB-IoT **Schedulers** (SIB1-NB, NPDCCH, NPDSCH and NPUSCH) 
 
-It is worth mentioning that this project only support format 1 RU. (15kHz, 12 SC and 2 slots)
+It is worth mentioning that this project only support **format 1 RU**. (15kHz, 12 SC and 2 slots)
 
 ## 2. Version
 0.2
