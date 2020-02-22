@@ -192,11 +192,12 @@
             lteHelper->Attach(ueLteDevs.Get(i));
         }
     
-     Config::Connect ("/NodeList/*/DeviceList/*/LteUeRrc/ConnectionEstablished",
-                  MakeCallback (&NotifyConnectionEstablishedUe));
+
     
     lteHelper->EnableTraces ();
-
+    Config::Connect ("/NodeList/*/DeviceList/*/LteUeRrc/ConnectionEstablished",
+                  MakeCallback (&NotifyConnectionEstablishedUe));
+        
     Simulator::Stop(Seconds(simTime));
     Simulator::Run();
 
