@@ -41,7 +41,18 @@
 
     NS_LOG_COMPONENT_DEFINE ("LteEpc");
 
-
+    void
+    NotifyConnectionEstablishedUe (std::string context,
+                                  uint64_t imsi,
+                                  uint16_t cellid,
+                                  uint16_t rnti)
+    {
+      std::cout << "at "<<Simulator::Now ().GetSeconds () << "s "<< context
+                << " UE IMSI " << imsi
+                << ": connected to CellId " << cellid
+                << " with RNTI " << rnti
+                << std::endl;
+    }
     int
     main (int argc, char *argv[])
     {
@@ -181,7 +192,8 @@
             lteHelper->Attach(ueLteDevs.Get(i));
         }
     
-    
+     Config::Connect ("/NodeList/*/DeviceList/*/LteUeRrc/ConnectionEstablished",
+                  MakeCallback (&NotifyConnectionEstablishedUe));
     
     lteHelper->EnableTraces ();
 
